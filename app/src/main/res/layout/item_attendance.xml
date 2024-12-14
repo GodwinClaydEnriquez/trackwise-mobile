@@ -1,0 +1,81 @@
+<!-- item_attendance.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/table_cell_border">
+
+    <TextView
+        android:id="@+id/attendanceId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ID"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/attendanceName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Name"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/attendanceEdpCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="EDP Code"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/attendanceSubject"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Subject"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/attendanceDepartmentOrSection"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Dept/Section"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/attendanceTeachingOrInstructor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Teach/Instr"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/attendanceRemarks"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Remarks"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/attendanceTimeIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Time In"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/attendanceTimeOut"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Time Out"
+        android:gravity="center"/>
+
+</LinearLayout>

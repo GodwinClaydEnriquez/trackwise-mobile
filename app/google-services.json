@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "283361669055",
+    "project_id": "trackwise-23cc0",
+    "storage_bucket": "trackwise-23cc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283361669055:android:0e2a4a58315e001e4f3b0a",
+        "android_client_info": {
+          "package_name": "com.ucb.finals.trackwise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiS_tq8_VJYigiVd09f3Y2bgfGQRB4m7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
